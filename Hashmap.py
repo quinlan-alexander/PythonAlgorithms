@@ -34,7 +34,6 @@ class HashMap:
 
     def delete(self, key):
         key_hash = self._get_hash(key)
-
         if self.map[key_hash] is None:
             return False
         for i in range(0, len(self.map[key_hash])):

@@ -68,5 +68,5 @@ class DoublyLinkedList(object):
             else:
                 this_node = this_node.get_next()
         return None
-    
+
 
